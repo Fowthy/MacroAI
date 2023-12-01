@@ -1,0 +1,301 @@
+Sex,Age,Height,Weight,Activity Level,BMI,Daily Calories,Carbs,Fiber,Protein,Fat,Water,Vitamin C,Vitamin A,Vitamin D,Vitamin E,Vitamin B12,Vitamin K,Niacin,Calcium
+Male,18 years,4 ft. 0 in.,88 lbs.,Sedentary,26.9,"1,166 kcal/day","131 - 189 grams
+",38 grams,34 grams,"32 - 45 grams
+","3.3 liters (about 14 cups)
+",75 mg,900 mcg,15 mcg,15 mg,2.4 mcg,75 mcg,16 mg,"1,300 mg"
+Male,18 years,4 ft. 0 in.,90 lbs.,Sedentary,27.5,"1,190 kcal/day","134 - 193 grams
+",38 grams,35 grams,"33 - 46 grams
+","3.3 liters (about 14 cups)
+",75 mg,900 mcg,15 mcg,15 mg,2.4 mcg,75 mcg,16 mg,"1,300 mg"
+Male,18 years,4 ft. 0 in.,93 lbs.,Sedentary,28.4,"1,227 kcal/day","138 - 199 grams
+",38 grams,36 grams,"34 - 48 grams
+","3.3 liters (about 14 cups)
+",75 mg,900 mcg,15 mcg,15 mg,2.4 mcg,75 mcg,16 mg,"1,300 mg"
+Male,18 years,4 ft. 0 in.,95 lbs.,Sedentary,29,"1,251 kcal/day","141 - 203 grams
+",38 grams,37 grams,"35 - 49 grams
+","3.3 liters (about 14 cups)
+",75 mg,900 mcg,15 mcg,15 mg,2.4 mcg,75 mcg,16 mg,"1,300 mg"
+Male,18 years,4 ft. 0 in.,97 lbs.,Sedentary,29.6,"1,275 kcal/day","143 - 207 grams
+",38 grams,37 grams,"35 - 50 grams
+","3.3 liters (about 14 cups)
+",75 mg,900 mcg,15 mcg,15 mg,2.4 mcg,75 mcg,16 mg,"1,300 mg"
+Male,18 years,4 ft. 0 in.,99 lbs.,Sedentary,30.2,"1,299 kcal/day","146 - 211 grams
+",38 grams,38 grams,"36 - 51 grams
+","3.3 liters (about 14 cups)
+",75 mg,900 mcg,15 mcg,15 mg,2.4 mcg,75 mcg,16 mg,"1,300 mg"
+Male,18 years,4 ft. 0 in.,101 lbs.,Sedentary,30.8,"1,323 kcal/day","149 - 215 grams
+",38 grams,39 grams,"37 - 51 grams
+","3.3 liters (about 14 cups)
+",75 mg,900 mcg,15 mcg,15 mg,2.4 mcg,75 mcg,16 mg,"1,300 mg"
+Male,18 years,4 ft. 0 in.,104 lbs.,Sedentary,31.7,"1,360 kcal/day","153 - 221 grams
+",38 grams,40 grams,"38 - 53 grams
+","3.3 liters (about 14 cups)
+",75 mg,900 mcg,15 mcg,15 mg,2.4 mcg,75 mcg,16 mg,"1,300 mg"
+Male,18 years,4 ft. 0 in.,106 lbs.,Sedentary,32.3,"1,384 kcal/day","156 - 225 grams
+",38 grams,41 grams,"38 - 54 grams
+","3.3 liters (about 14 cups)
+",75 mg,900 mcg,15 mcg,15 mg,2.4 mcg,75 mcg,16 mg,"1,300 mg"
+Male,18 years,4 ft. 0 in.,108 lbs.,Sedentary,33,"1,408 kcal/day","158 - 229 grams
+",38 grams,42 grams,"39 - 55 grams
+","3.3 liters (about 14 cups)
+",75 mg,900 mcg,15 mcg,15 mg,2.4 mcg,75 mcg,16 mg,"1,300 mg"
+Male,18 years,4 ft. 0 in.,110 lbs.,Sedentary,33.6,"1,432 kcal/day","161 - 233 grams
+",38 grams,42 grams,"40 - 56 grams
+","3.3 liters (about 14 cups)
+",75 mg,900 mcg,15 mcg,15 mg,2.4 mcg,75 mcg,16 mg,"1,300 mg"
+Male,18 years,4 ft. 0 in.,112 lbs.,Sedentary,34.2,"1,457 kcal/day","164 - 237 grams
+",38 grams,43 grams,"40 - 57 grams
+","3.3 liters (about 14 cups)
+",75 mg,900 mcg,15 mcg,15 mg,2.4 mcg,75 mcg,16 mg,"1,300 mg"
+Male,18 years,4 ft. 0 in.,115 lbs.,Sedentary,35.1,"1,493 kcal/day","168 - 243 grams
+",38 grams,44 grams,"41 - 58 grams
+","3.3 liters (about 14 cups)
+",75 mg,900 mcg,15 mcg,15 mg,2.4 mcg,75 mcg,16 mg,"1,300 mg"
+Male,18 years,4 ft. 0 in.,117 lbs.,Sedentary,35.7,"1,517 kcal/day","171 - 247 grams
+",38 grams,45 grams,"42 - 59 grams
+","3.3 liters (about 14 cups)
+",75 mg,900 mcg,15 mcg,15 mg,2.4 mcg,75 mcg,16 mg,"1,300 mg"
+Male,18 years,4 ft. 0 in.,119 lbs.,Sedentary,36.3,"1,541 kcal/day","173 - 250 grams
+",38 grams,46 grams,"43 - 60 grams
+","3.3 liters (about 14 cups)
+",75 mg,900 mcg,15 mcg,15 mg,2.4 mcg,75 mcg,16 mg,"1,300 mg"
+Male,18 years,4 ft. 0 in.,121 lbs.,Sedentary,36.9,"1,566 kcal/day","176 - 254 grams
+",38 grams,47 grams,"44 - 61 grams
+","3.3 liters (about 14 cups)
+",75 mg,900 mcg,15 mcg,15 mg,2.4 mcg,75 mcg,16 mg,"1,300 mg"
+Male,18 years,4 ft. 0 in.,123 lbs.,Sedentary,37.5,"1,590 kcal/day","179 - 258 grams
+",38 grams,47 grams,"44 - 62 grams
+","3.3 liters (about 14 cups)
+",75 mg,900 mcg,15 mcg,15 mg,2.4 mcg,75 mcg,16 mg,"1,300 mg"
+Male,18 years,4 ft. 0 in.,126 lbs.,Sedentary,38.4,"1,626 kcal/day","183 - 264 grams
+",38 grams,49 grams,"45 - 63 grams
+","3.3 liters (about 14 cups)
+",75 mg,900 mcg,15 mcg,15 mg,2.4 mcg,75 mcg,16 mg,"1,300 mg"
+Male,18 years,4 ft. 0 in.,128 lbs.,Sedentary,39.1,"1,650 kcal/day","186 - 268 grams
+",38 grams,49 grams,"46 - 64 grams
+","3.3 liters (about 14 cups)
+",75 mg,900 mcg,15 mcg,15 mg,2.4 mcg,75 mcg,16 mg,"1,300 mg"
+Male,18 years,4 ft. 0 in.,130 lbs.,Sedentary,39.7,"1,675 kcal/day","188 - 272 grams
+",38 grams,50 grams,"47 - 65 grams
+","3.3 liters (about 14 cups)
+",75 mg,900 mcg,15 mcg,15 mg,2.4 mcg,75 mcg,16 mg,"1,300 mg"
+Male,18 years,4 ft. 0 in.,132 lbs.,Sedentary,40.3,"1,699 kcal/day","191 - 276 grams
+",38 grams,51 grams,"47 - 66 grams
+","3.3 liters (about 14 cups)
+",75 mg,900 mcg,15 mcg,15 mg,2.4 mcg,75 mcg,16 mg,"1,300 mg"
+Male,18 years,4 ft. 0 in.,135 lbs.,Sedentary,41.2,"1,735 kcal/day","195 - 282 grams
+",38 grams,52 grams,"48 - 67 grams
+","3.3 liters (about 14 cups)
+",75 mg,900 mcg,15 mcg,15 mg,2.4 mcg,75 mcg,16 mg,"1,300 mg"
+Male,18 years,4 ft. 0 in.,137 lbs.,Sedentary,41.8,"1,759 kcal/day","198 - 286 grams
+",38 grams,53 grams,"49 - 68 grams
+","3.3 liters (about 14 cups)
+",75 mg,900 mcg,15 mcg,15 mg,2.4 mcg,75 mcg,16 mg,"1,300 mg"
+Male,18 years,4 ft. 0 in.,139 lbs.,Sedentary,42.4,"1,784 kcal/day","201 - 290 grams
+",38 grams,54 grams,"50 - 69 grams
+","3.3 liters (about 14 cups)
+",75 mg,900 mcg,15 mcg,15 mg,2.4 mcg,75 mcg,16 mg,"1,300 mg"
+Male,18 years,4 ft. 0 in.,141 lbs.,Sedentary,43,"1,808 kcal/day","203 - 294 grams
+",38 grams,54 grams,"50 - 70 grams
+","3.3 liters (about 14 cups)
+",75 mg,900 mcg,15 mcg,15 mg,2.4 mcg,75 mcg,16 mg,"1,300 mg"
+Male,18 years,5 ft. 0 in.,88 lbs.,Sedentary,17.2,"1,441 kcal/day","162 - 234 grams
+",38 grams,34 grams,"40 - 56 grams
+","3.3 liters (about 14 cups)
+",75 mg,900 mcg,15 mcg,15 mg,2.4 mcg,75 mcg,16 mg,"1,300 mg"
+Male,18 years,5 ft. 0 in.,90 lbs.,Sedentary,17.6,"1,465 kcal/day","165 - 238 grams
+",38 grams,35 grams,"41 - 57 grams
+","3.3 liters (about 14 cups)
+",75 mg,900 mcg,15 mcg,15 mg,2.4 mcg,75 mcg,16 mg,"1,300 mg"
+Male,18 years,5 ft. 0 in.,93 lbs.,Sedentary,18.2,"1,502 kcal/day","169 - 244 grams
+",38 grams,36 grams,"42 - 58 grams
+","3.3 liters (about 14 cups)
+",75 mg,900 mcg,15 mcg,15 mg,2.4 mcg,75 mcg,16 mg,"1,300 mg"
+Male,18 years,5 ft. 0 in.,95 lbs.,Sedentary,18.6,"1,526 kcal/day","172 - 248 grams
+",38 grams,37 grams,"42 - 59 grams
+","3.3 liters (about 14 cups)
+",75 mg,900 mcg,15 mcg,15 mg,2.4 mcg,75 mcg,16 mg,"1,300 mg"
+Male,18 years,5 ft. 0 in.,97 lbs.,Sedentary,18.9,"1,550 kcal/day","174 - 252 grams
+",38 grams,37 grams,"43 - 60 grams
+","3.3 liters (about 14 cups)
+",75 mg,900 mcg,15 mcg,15 mg,2.4 mcg,75 mcg,16 mg,"1,300 mg"
+Male,18 years,5 ft. 0 in.,99 lbs.,Sedentary,19.3,"1,574 kcal/day","177 - 256 grams
+",38 grams,38 grams,"44 - 61 grams
+","3.3 liters (about 14 cups)
+",75 mg,900 mcg,15 mcg,15 mg,2.4 mcg,75 mcg,16 mg,"1,300 mg"
+Male,18 years,5 ft. 0 in.,101 lbs.,Sedentary,19.7,"1,599 kcal/day","180 - 260 grams
+",38 grams,39 grams,"44 - 62 grams
+","3.3 liters (about 14 cups)
+",75 mg,900 mcg,15 mcg,15 mg,2.4 mcg,75 mcg,16 mg,"1,300 mg"
+Male,18 years,5 ft. 0 in.,104 lbs.,Sedentary,20.3,"1,635 kcal/day","184 - 266 grams
+",38 grams,40 grams,"45 - 64 grams
+","3.3 liters (about 14 cups)
+",75 mg,900 mcg,15 mcg,15 mg,2.4 mcg,75 mcg,16 mg,"1,300 mg"
+Male,18 years,5 ft. 0 in.,106 lbs.,Sedentary,20.7,"1,659 kcal/day","187 - 270 grams
+",38 grams,41 grams,"46 - 65 grams
+","3.3 liters (about 14 cups)
+",75 mg,900 mcg,15 mcg,15 mg,2.4 mcg,75 mcg,16 mg,"1,300 mg"
+Male,18 years,5 ft. 0 in.,108 lbs.,Sedentary,21.1,"1,683 kcal/day","189 - 273 grams
+",38 grams,42 grams,"47 - 65 grams
+","3.3 liters (about 14 cups)
+",75 mg,900 mcg,15 mcg,15 mg,2.4 mcg,75 mcg,16 mg,"1,300 mg"
+Male,18 years,5 ft. 0 in.,110 lbs.,Sedentary,21.5,"1,708 kcal/day","192 - 278 grams
+",38 grams,42 grams,"47 - 66 grams
+","3.3 liters (about 14 cups)
+",75 mg,900 mcg,15 mcg,15 mg,2.4 mcg,75 mcg,16 mg,"1,300 mg"
+Male,18 years,5 ft. 0 in.,112 lbs.,Sedentary,21.9,"1,732 kcal/day","195 - 281 grams
+",38 grams,43 grams,"48 - 67 grams
+","3.3 liters (about 14 cups)
+",75 mg,900 mcg,15 mcg,15 mg,2.4 mcg,75 mcg,16 mg,"1,300 mg"
+Male,18 years,5 ft. 0 in.,115 lbs.,Sedentary,22.5,"1,768 kcal/day","199 - 287 grams
+",38 grams,44 grams,"49 - 69 grams
+","3.3 liters (about 14 cups)
+",75 mg,900 mcg,15 mcg,15 mg,2.4 mcg,75 mcg,16 mg,"1,300 mg"
+Male,18 years,5 ft. 0 in.,117 lbs.,Sedentary,22.9,"1,792 kcal/day","202 - 291 grams
+",38 grams,45 grams,"50 - 70 grams
+","3.3 liters (about 14 cups)
+",75 mg,900 mcg,15 mcg,15 mg,2.4 mcg,75 mcg,16 mg,"1,300 mg"
+Male,18 years,5 ft. 0 in.,119 lbs.,Sedentary,23.2,"1,817 kcal/day","204 - 295 grams
+",38 grams,46 grams,"50 - 71 grams
+","3.3 liters (about 14 cups)
+",75 mg,900 mcg,15 mcg,15 mg,2.4 mcg,75 mcg,16 mg,"1,300 mg"
+Male,18 years,5 ft. 0 in.,121 lbs.,Sedentary,23.6,"1,841 kcal/day","207 - 299 grams
+",38 grams,47 grams,"51 - 72 grams
+","3.3 liters (about 14 cups)
+",75 mg,900 mcg,15 mcg,15 mg,2.4 mcg,75 mcg,16 mg,"1,300 mg"
+Male,18 years,5 ft. 0 in.,123 lbs.,Sedentary,24,"1,865 kcal/day","210 - 303 grams
+",38 grams,47 grams,"52 - 73 grams
+","3.3 liters (about 14 cups)
+",75 mg,900 mcg,15 mcg,15 mg,2.4 mcg,75 mcg,16 mg,"1,300 mg"
+Male,18 years,5 ft. 0 in.,126 lbs.,Sedentary,24.6,"1,901 kcal/day","214 - 309 grams
+",38 grams,49 grams,"53 - 74 grams
+","3.3 liters (about 14 cups)
+",75 mg,900 mcg,15 mcg,15 mg,2.4 mcg,75 mcg,16 mg,"1,300 mg"
+Male,18 years,5 ft. 0 in.,128 lbs.,Sedentary,25,"1,926 kcal/day","217 - 313 grams
+",38 grams,49 grams,"54 - 75 grams
+","3.3 liters (about 14 cups)
+",75 mg,900 mcg,15 mcg,15 mg,2.4 mcg,75 mcg,16 mg,"1,300 mg"
+Male,18 years,5 ft. 0 in.,130 lbs.,Sedentary,25.4,"1,950 kcal/day","219 - 317 grams
+",38 grams,50 grams,"54 - 76 grams
+","3.3 liters (about 14 cups)
+",75 mg,900 mcg,15 mcg,15 mg,2.4 mcg,75 mcg,16 mg,"1,300 mg"
+Male,18 years,5 ft. 0 in.,132 lbs.,Sedentary,25.8,"1,974 kcal/day","222 - 321 grams
+",38 grams,51 grams,"55 - 77 grams
+","3.3 liters (about 14 cups)
+",75 mg,900 mcg,15 mcg,15 mg,2.4 mcg,75 mcg,16 mg,"1,300 mg"
+Male,18 years,5 ft. 0 in.,135 lbs.,Sedentary,26.4,"2,010 kcal/day","226 - 327 grams
+",38 grams,52 grams,"56 - 78 grams
+","3.3 liters (about 14 cups)
+",75 mg,900 mcg,15 mcg,15 mg,2.4 mcg,75 mcg,16 mg,"1,300 mg"
+Male,18 years,5 ft. 0 in.,137 lbs.,Sedentary,26.8,"2,035 kcal/day","229 - 331 grams
+",38 grams,53 grams,"57 - 79 grams
+","3.3 liters (about 14 cups)
+",75 mg,900 mcg,15 mcg,15 mg,2.4 mcg,75 mcg,16 mg,"1,300 mg"
+Male,18 years,5 ft. 0 in.,139 lbs.,Sedentary,27.1,"2,059 kcal/day","232 - 335 grams
+",38 grams,54 grams,"57 - 80 grams
+","3.3 liters (about 14 cups)
+",75 mg,900 mcg,15 mcg,15 mg,2.4 mcg,75 mcg,16 mg,"1,300 mg"
+Male,18 years,5 ft. 0 in.,141 lbs.,Sedentary,27.5,"2,083 kcal/day","234 - 338 grams
+",38 grams,54 grams,"58 - 81 grams
+","3.3 liters (about 14 cups)
+",75 mg,900 mcg,15 mcg,15 mg,2.4 mcg,75 mcg,16 mg,"1,300 mg"
+Male,18 years,6 ft. 0 in.,88 lbs.,Sedentary,11.9,"1,716 kcal/day","193 - 279 grams
+",38 grams,34 grams,"48 - 67 grams
+","3.3 liters (about 14 cups)
+",75 mg,900 mcg,15 mcg,15 mg,2.4 mcg,75 mcg,16 mg,"1,300 mg"
+Male,18 years,6 ft. 0 in.,90 lbs.,Sedentary,12.2,"1,741 kcal/day","196 - 283 grams
+",38 grams,35 grams,"48 - 68 grams
+","3.3 liters (about 14 cups)
+",75 mg,900 mcg,15 mcg,15 mg,2.4 mcg,75 mcg,16 mg,"1,300 mg"
+Male,18 years,6 ft. 0 in.,93 lbs.,Sedentary,12.6,"1,777 kcal/day","200 - 289 grams
+",38 grams,36 grams,"49 - 69 grams
+","3.3 liters (about 14 cups)
+",75 mg,900 mcg,15 mcg,15 mg,2.4 mcg,75 mcg,16 mg,"1,300 mg"
+Male,18 years,6 ft. 0 in.,95 lbs.,Sedentary,12.9,"1,801 kcal/day","203 - 293 grams
+",38 grams,37 grams,"50 - 70 grams
+","3.3 liters (about 14 cups)
+",75 mg,900 mcg,15 mcg,15 mg,2.4 mcg,75 mcg,16 mg,"1,300 mg"
+Male,18 years,6 ft. 0 in.,97 lbs.,Sedentary,13.2,"1,825 kcal/day","205 - 297 grams
+",38 grams,37 grams,"51 - 71 grams
+","3.3 liters (about 14 cups)
+",75 mg,900 mcg,15 mcg,15 mg,2.4 mcg,75 mcg,16 mg,"1,300 mg"
+Male,18 years,6 ft. 0 in.,99 lbs.,Sedentary,13.4,"1,850 kcal/day","208 - 301 grams
+",38 grams,38 grams,"51 - 72 grams
+","3.3 liters (about 14 cups)
+",75 mg,900 mcg,15 mcg,15 mg,2.4 mcg,75 mcg,16 mg,"1,300 mg"
+Male,18 years,6 ft. 0 in.,101 lbs.,Sedentary,13.7,"1,874 kcal/day","211 - 305 grams
+",38 grams,39 grams,"52 - 73 grams
+","3.3 liters (about 14 cups)
+",75 mg,900 mcg,15 mcg,15 mg,2.4 mcg,75 mcg,16 mg,"1,300 mg"
+Male,18 years,6 ft. 0 in.,104 lbs.,Sedentary,14.1,"1,910 kcal/day","215 - 310 grams
+",38 grams,40 grams,"53 - 74 grams
+","3.3 liters (about 14 cups)
+",75 mg,900 mcg,15 mcg,15 mg,2.4 mcg,75 mcg,16 mg,"1,300 mg"
+Male,18 years,6 ft. 0 in.,106 lbs.,Sedentary,14.4,"1,934 kcal/day","218 - 314 grams
+",38 grams,41 grams,"54 - 75 grams
+","3.3 liters (about 14 cups)
+",75 mg,900 mcg,15 mcg,15 mg,2.4 mcg,75 mcg,16 mg,"1,300 mg"
+Male,18 years,6 ft. 0 in.,108 lbs.,Sedentary,14.6,"1,959 kcal/day","220 - 318 grams
+",38 grams,42 grams,"54 - 76 grams
+","3.3 liters (about 14 cups)
+",75 mg,900 mcg,15 mcg,15 mg,2.4 mcg,75 mcg,16 mg,"1,300 mg"
+Male,18 years,6 ft. 0 in.,110 lbs.,Sedentary,14.9,"1,983 kcal/day","223 - 322 grams
+",38 grams,42 grams,"55 - 77 grams
+","3.3 liters (about 14 cups)
+",75 mg,900 mcg,15 mcg,15 mg,2.4 mcg,75 mcg,16 mg,"1,300 mg"
+Male,18 years,6 ft. 0 in.,112 lbs.,Sedentary,15.2,"2,007 kcal/day","226 - 326 grams
+",38 grams,43 grams,"56 - 78 grams
+","3.3 liters (about 14 cups)
+",75 mg,900 mcg,15 mcg,15 mg,2.4 mcg,75 mcg,16 mg,"1,300 mg"
+Male,18 years,6 ft. 0 in.,115 lbs.,Sedentary,15.6,"2,043 kcal/day","230 - 332 grams
+",38 grams,44 grams,"57 - 79 grams
+","3.3 liters (about 14 cups)
+",75 mg,900 mcg,15 mcg,15 mg,2.4 mcg,75 mcg,16 mg,"1,300 mg"
+Male,18 years,6 ft. 0 in.,117 lbs.,Sedentary,15.9,"2,068 kcal/day","233 - 336 grams
+",38 grams,45 grams,"57 - 80 grams
+","3.3 liters (about 14 cups)
+",75 mg,900 mcg,15 mcg,15 mg,2.4 mcg,75 mcg,16 mg,"1,300 mg"
+Male,18 years,6 ft. 0 in.,119 lbs.,Sedentary,16.1,"2,092 kcal/day","235 - 340 grams
+",38 grams,46 grams,"58 - 81 grams
+","3.3 liters (about 14 cups)
+",75 mg,900 mcg,15 mcg,15 mg,2.4 mcg,75 mcg,16 mg,"1,300 mg"
+Male,18 years,6 ft. 0 in.,121 lbs.,Sedentary,16.4,"2,116 kcal/day","238 - 344 grams
+",38 grams,47 grams,"59 - 82 grams
+","3.3 liters (about 14 cups)
+",75 mg,900 mcg,15 mcg,15 mg,2.4 mcg,75 mcg,16 mg,"1,300 mg"
+Male,18 years,6 ft. 0 in.,123 lbs.,Sedentary,16.7,"2,140 kcal/day","241 - 348 grams
+",38 grams,47 grams,"59 - 83 grams
+","3.3 liters (about 14 cups)
+",75 mg,900 mcg,15 mcg,15 mg,2.4 mcg,75 mcg,16 mg,"1,300 mg"
+Male,18 years,6 ft. 0 in.,126 lbs.,Sedentary,17.1,"2,177 kcal/day","245 - 354 grams
+",38 grams,49 grams,"60 - 85 grams
+","3.3 liters (about 14 cups)
+",75 mg,900 mcg,15 mcg,15 mg,2.4 mcg,75 mcg,16 mg,"1,300 mg"
+Male,18 years,6 ft. 0 in.,128 lbs.,Sedentary,17.4,"2,201 kcal/day","248 - 358 grams
+",38 grams,49 grams,"61 - 86 grams
+","3.3 liters (about 14 cups)
+",75 mg,900 mcg,15 mcg,15 mg,2.4 mcg,75 mcg,16 mg,"1,300 mg"
+Male,18 years,6 ft. 0 in.,130 lbs.,Sedentary,17.6,"2,225 kcal/day","250 - 362 grams
+",38 grams,50 grams,"62 - 87 grams
+","3.3 liters (about 14 cups)
+",75 mg,900 mcg,15 mcg,15 mg,2.4 mcg,75 mcg,16 mg,"1,300 mg"
+Male,18 years,6 ft. 0 in.,132 lbs.,Sedentary,17.9,"2,249 kcal/day","253 - 365 grams
+",38 grams,51 grams,"62 - 87 grams
+","3.3 liters (about 14 cups)
+",75 mg,900 mcg,15 mcg,15 mg,2.4 mcg,75 mcg,16 mg,"1,300 mg"
+Male,18 years,6 ft. 0 in.,135 lbs.,Sedentary,18.3,"2,286 kcal/day","257 - 371 grams
+",38 grams,52 grams,"64 - 89 grams
+","3.3 liters (about 14 cups)
+",75 mg,900 mcg,15 mcg,15 mg,2.4 mcg,75 mcg,16 mg,"1,300 mg"
+Male,18 years,6 ft. 0 in.,137 lbs.,Sedentary,18.6,"2,310 kcal/day","260 - 375 grams
+",38 grams,53 grams,"64 - 90 grams
+","3.3 liters (about 14 cups)
+",75 mg,900 mcg,15 mcg,15 mg,2.4 mcg,75 mcg,16 mg,"1,300 mg"
+Male,18 years,6 ft. 0 in.,139 lbs.,Sedentary,18.9,"2,334 kcal/day","263 - 379 grams
+",38 grams,54 grams,"65 - 91 grams
+","3.3 liters (about 14 cups)
+",75 mg,900 mcg,15 mcg,15 mg,2.4 mcg,75 mcg,16 mg,"1,300 mg"
+Male,18 years,6 ft. 0 in.,141 lbs.,Sedentary,19.1,"2,358 kcal/day","265 - 383 grams
+",38 grams,54 grams,"66 - 92 grams
+","3.3 liters (about 14 cups)
+",75 mg,900 mcg,15 mcg,15 mg,2.4 mcg,75 mcg,16 mg,"1,300 mg"
