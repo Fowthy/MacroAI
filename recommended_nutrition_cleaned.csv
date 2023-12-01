@@ -1,0 +1,301 @@
+Sex,Age,Height,Weight,Activity Level,BMI,Daily Calories,Carbs,Fiber,Protein,Fat,Water,Vitamin C,Vitamin A,Vitamin D,Vitamin E,Vitamin B12,Vitamin K,Niacin,Calcium
+1,18.0,4.0,88.0,Sedentary,26.9,1166.0,"131 - 189 grams
+",38 grams,34 grams,"32 - 45 grams
+","3.3 liters (about 14 cups)
+",75 mg,900 mcg,15 mcg,15 mg,2.4 mcg,75 mcg,16 mg,"1,300 mg"
+1,18.0,4.0,90.0,Sedentary,27.5,1190.0,"134 - 193 grams
+",38 grams,35 grams,"33 - 46 grams
+","3.3 liters (about 14 cups)
+",75 mg,900 mcg,15 mcg,15 mg,2.4 mcg,75 mcg,16 mg,"1,300 mg"
+1,18.0,4.0,93.0,Sedentary,28.4,1227.0,"138 - 199 grams
+",38 grams,36 grams,"34 - 48 grams
+","3.3 liters (about 14 cups)
+",75 mg,900 mcg,15 mcg,15 mg,2.4 mcg,75 mcg,16 mg,"1,300 mg"
+1,18.0,4.0,95.0,Sedentary,29.0,1251.0,"141 - 203 grams
+",38 grams,37 grams,"35 - 49 grams
+","3.3 liters (about 14 cups)
+",75 mg,900 mcg,15 mcg,15 mg,2.4 mcg,75 mcg,16 mg,"1,300 mg"
+1,18.0,4.0,97.0,Sedentary,29.6,1275.0,"143 - 207 grams
+",38 grams,37 grams,"35 - 50 grams
+","3.3 liters (about 14 cups)
+",75 mg,900 mcg,15 mcg,15 mg,2.4 mcg,75 mcg,16 mg,"1,300 mg"
+1,18.0,4.0,99.0,Sedentary,30.2,1299.0,"146 - 211 grams
+",38 grams,38 grams,"36 - 51 grams
+","3.3 liters (about 14 cups)
+",75 mg,900 mcg,15 mcg,15 mg,2.4 mcg,75 mcg,16 mg,"1,300 mg"
+1,18.0,4.0,101.0,Sedentary,30.8,1323.0,"149 - 215 grams
+",38 grams,39 grams,"37 - 51 grams
+","3.3 liters (about 14 cups)
+",75 mg,900 mcg,15 mcg,15 mg,2.4 mcg,75 mcg,16 mg,"1,300 mg"
+1,18.0,4.0,104.0,Sedentary,31.7,1360.0,"153 - 221 grams
+",38 grams,40 grams,"38 - 53 grams
+","3.3 liters (about 14 cups)
+",75 mg,900 mcg,15 mcg,15 mg,2.4 mcg,75 mcg,16 mg,"1,300 mg"
+1,18.0,4.0,106.0,Sedentary,32.3,1384.0,"156 - 225 grams
+",38 grams,41 grams,"38 - 54 grams
+","3.3 liters (about 14 cups)
+",75 mg,900 mcg,15 mcg,15 mg,2.4 mcg,75 mcg,16 mg,"1,300 mg"
+1,18.0,4.0,108.0,Sedentary,33.0,1408.0,"158 - 229 grams
+",38 grams,42 grams,"39 - 55 grams
+","3.3 liters (about 14 cups)
+",75 mg,900 mcg,15 mcg,15 mg,2.4 mcg,75 mcg,16 mg,"1,300 mg"
+1,18.0,4.0,110.0,Sedentary,33.6,1432.0,"161 - 233 grams
+",38 grams,42 grams,"40 - 56 grams
+","3.3 liters (about 14 cups)
+",75 mg,900 mcg,15 mcg,15 mg,2.4 mcg,75 mcg,16 mg,"1,300 mg"
+1,18.0,4.0,112.0,Sedentary,34.2,1457.0,"164 - 237 grams
+",38 grams,43 grams,"40 - 57 grams
+","3.3 liters (about 14 cups)
+",75 mg,900 mcg,15 mcg,15 mg,2.4 mcg,75 mcg,16 mg,"1,300 mg"
+1,18.0,4.0,115.0,Sedentary,35.1,1493.0,"168 - 243 grams
+",38 grams,44 grams,"41 - 58 grams
+","3.3 liters (about 14 cups)
+",75 mg,900 mcg,15 mcg,15 mg,2.4 mcg,75 mcg,16 mg,"1,300 mg"
+1,18.0,4.0,117.0,Sedentary,35.7,1517.0,"171 - 247 grams
+",38 grams,45 grams,"42 - 59 grams
+","3.3 liters (about 14 cups)
+",75 mg,900 mcg,15 mcg,15 mg,2.4 mcg,75 mcg,16 mg,"1,300 mg"
+1,18.0,4.0,119.0,Sedentary,36.3,1541.0,"173 - 250 grams
+",38 grams,46 grams,"43 - 60 grams
+","3.3 liters (about 14 cups)
+",75 mg,900 mcg,15 mcg,15 mg,2.4 mcg,75 mcg,16 mg,"1,300 mg"
+1,18.0,4.0,121.0,Sedentary,36.9,1566.0,"176 - 254 grams
+",38 grams,47 grams,"44 - 61 grams
+","3.3 liters (about 14 cups)
+",75 mg,900 mcg,15 mcg,15 mg,2.4 mcg,75 mcg,16 mg,"1,300 mg"
+1,18.0,4.0,123.0,Sedentary,37.5,1590.0,"179 - 258 grams
+",38 grams,47 grams,"44 - 62 grams
+","3.3 liters (about 14 cups)
+",75 mg,900 mcg,15 mcg,15 mg,2.4 mcg,75 mcg,16 mg,"1,300 mg"
+1,18.0,4.0,126.0,Sedentary,38.4,1626.0,"183 - 264 grams
+",38 grams,49 grams,"45 - 63 grams
+","3.3 liters (about 14 cups)
+",75 mg,900 mcg,15 mcg,15 mg,2.4 mcg,75 mcg,16 mg,"1,300 mg"
+1,18.0,4.0,128.0,Sedentary,39.1,1650.0,"186 - 268 grams
+",38 grams,49 grams,"46 - 64 grams
+","3.3 liters (about 14 cups)
+",75 mg,900 mcg,15 mcg,15 mg,2.4 mcg,75 mcg,16 mg,"1,300 mg"
+1,18.0,4.0,130.0,Sedentary,39.7,1675.0,"188 - 272 grams
+",38 grams,50 grams,"47 - 65 grams
+","3.3 liters (about 14 cups)
+",75 mg,900 mcg,15 mcg,15 mg,2.4 mcg,75 mcg,16 mg,"1,300 mg"
+1,18.0,4.0,132.0,Sedentary,40.3,1699.0,"191 - 276 grams
+",38 grams,51 grams,"47 - 66 grams
+","3.3 liters (about 14 cups)
+",75 mg,900 mcg,15 mcg,15 mg,2.4 mcg,75 mcg,16 mg,"1,300 mg"
+1,18.0,4.0,135.0,Sedentary,41.2,1735.0,"195 - 282 grams
+",38 grams,52 grams,"48 - 67 grams
+","3.3 liters (about 14 cups)
+",75 mg,900 mcg,15 mcg,15 mg,2.4 mcg,75 mcg,16 mg,"1,300 mg"
+1,18.0,4.0,137.0,Sedentary,41.8,1759.0,"198 - 286 grams
+",38 grams,53 grams,"49 - 68 grams
+","3.3 liters (about 14 cups)
+",75 mg,900 mcg,15 mcg,15 mg,2.4 mcg,75 mcg,16 mg,"1,300 mg"
+1,18.0,4.0,139.0,Sedentary,42.4,1784.0,"201 - 290 grams
+",38 grams,54 grams,"50 - 69 grams
+","3.3 liters (about 14 cups)
+",75 mg,900 mcg,15 mcg,15 mg,2.4 mcg,75 mcg,16 mg,"1,300 mg"
+1,18.0,4.0,141.0,Sedentary,43.0,1808.0,"203 - 294 grams
+",38 grams,54 grams,"50 - 70 grams
+","3.3 liters (about 14 cups)
+",75 mg,900 mcg,15 mcg,15 mg,2.4 mcg,75 mcg,16 mg,"1,300 mg"
+1,18.0,5.0,88.0,Sedentary,17.2,1441.0,"162 - 234 grams
+",38 grams,34 grams,"40 - 56 grams
+","3.3 liters (about 14 cups)
+",75 mg,900 mcg,15 mcg,15 mg,2.4 mcg,75 mcg,16 mg,"1,300 mg"
+1,18.0,5.0,90.0,Sedentary,17.6,1465.0,"165 - 238 grams
+",38 grams,35 grams,"41 - 57 grams
+","3.3 liters (about 14 cups)
+",75 mg,900 mcg,15 mcg,15 mg,2.4 mcg,75 mcg,16 mg,"1,300 mg"
+1,18.0,5.0,93.0,Sedentary,18.2,1502.0,"169 - 244 grams
+",38 grams,36 grams,"42 - 58 grams
+","3.3 liters (about 14 cups)
+",75 mg,900 mcg,15 mcg,15 mg,2.4 mcg,75 mcg,16 mg,"1,300 mg"
+1,18.0,5.0,95.0,Sedentary,18.6,1526.0,"172 - 248 grams
+",38 grams,37 grams,"42 - 59 grams
+","3.3 liters (about 14 cups)
+",75 mg,900 mcg,15 mcg,15 mg,2.4 mcg,75 mcg,16 mg,"1,300 mg"
+1,18.0,5.0,97.0,Sedentary,18.9,1550.0,"174 - 252 grams
+",38 grams,37 grams,"43 - 60 grams
+","3.3 liters (about 14 cups)
+",75 mg,900 mcg,15 mcg,15 mg,2.4 mcg,75 mcg,16 mg,"1,300 mg"
+1,18.0,5.0,99.0,Sedentary,19.3,1574.0,"177 - 256 grams
+",38 grams,38 grams,"44 - 61 grams
+","3.3 liters (about 14 cups)
+",75 mg,900 mcg,15 mcg,15 mg,2.4 mcg,75 mcg,16 mg,"1,300 mg"
+1,18.0,5.0,101.0,Sedentary,19.7,1599.0,"180 - 260 grams
+",38 grams,39 grams,"44 - 62 grams
+","3.3 liters (about 14 cups)
+",75 mg,900 mcg,15 mcg,15 mg,2.4 mcg,75 mcg,16 mg,"1,300 mg"
+1,18.0,5.0,104.0,Sedentary,20.3,1635.0,"184 - 266 grams
+",38 grams,40 grams,"45 - 64 grams
+","3.3 liters (about 14 cups)
+",75 mg,900 mcg,15 mcg,15 mg,2.4 mcg,75 mcg,16 mg,"1,300 mg"
+1,18.0,5.0,106.0,Sedentary,20.7,1659.0,"187 - 270 grams
+",38 grams,41 grams,"46 - 65 grams
+","3.3 liters (about 14 cups)
+",75 mg,900 mcg,15 mcg,15 mg,2.4 mcg,75 mcg,16 mg,"1,300 mg"
+1,18.0,5.0,108.0,Sedentary,21.1,1683.0,"189 - 273 grams
+",38 grams,42 grams,"47 - 65 grams
+","3.3 liters (about 14 cups)
+",75 mg,900 mcg,15 mcg,15 mg,2.4 mcg,75 mcg,16 mg,"1,300 mg"
+1,18.0,5.0,110.0,Sedentary,21.5,1708.0,"192 - 278 grams
+",38 grams,42 grams,"47 - 66 grams
+","3.3 liters (about 14 cups)
+",75 mg,900 mcg,15 mcg,15 mg,2.4 mcg,75 mcg,16 mg,"1,300 mg"
+1,18.0,5.0,112.0,Sedentary,21.9,1732.0,"195 - 281 grams
+",38 grams,43 grams,"48 - 67 grams
+","3.3 liters (about 14 cups)
+",75 mg,900 mcg,15 mcg,15 mg,2.4 mcg,75 mcg,16 mg,"1,300 mg"
+1,18.0,5.0,115.0,Sedentary,22.5,1768.0,"199 - 287 grams
+",38 grams,44 grams,"49 - 69 grams
+","3.3 liters (about 14 cups)
+",75 mg,900 mcg,15 mcg,15 mg,2.4 mcg,75 mcg,16 mg,"1,300 mg"
+1,18.0,5.0,117.0,Sedentary,22.9,1792.0,"202 - 291 grams
+",38 grams,45 grams,"50 - 70 grams
+","3.3 liters (about 14 cups)
+",75 mg,900 mcg,15 mcg,15 mg,2.4 mcg,75 mcg,16 mg,"1,300 mg"
+1,18.0,5.0,119.0,Sedentary,23.2,1817.0,"204 - 295 grams
+",38 grams,46 grams,"50 - 71 grams
+","3.3 liters (about 14 cups)
+",75 mg,900 mcg,15 mcg,15 mg,2.4 mcg,75 mcg,16 mg,"1,300 mg"
+1,18.0,5.0,121.0,Sedentary,23.6,1841.0,"207 - 299 grams
+",38 grams,47 grams,"51 - 72 grams
+","3.3 liters (about 14 cups)
+",75 mg,900 mcg,15 mcg,15 mg,2.4 mcg,75 mcg,16 mg,"1,300 mg"
+1,18.0,5.0,123.0,Sedentary,24.0,1865.0,"210 - 303 grams
+",38 grams,47 grams,"52 - 73 grams
+","3.3 liters (about 14 cups)
+",75 mg,900 mcg,15 mcg,15 mg,2.4 mcg,75 mcg,16 mg,"1,300 mg"
+1,18.0,5.0,126.0,Sedentary,24.6,1901.0,"214 - 309 grams
+",38 grams,49 grams,"53 - 74 grams
+","3.3 liters (about 14 cups)
+",75 mg,900 mcg,15 mcg,15 mg,2.4 mcg,75 mcg,16 mg,"1,300 mg"
+1,18.0,5.0,128.0,Sedentary,25.0,1926.0,"217 - 313 grams
+",38 grams,49 grams,"54 - 75 grams
+","3.3 liters (about 14 cups)
+",75 mg,900 mcg,15 mcg,15 mg,2.4 mcg,75 mcg,16 mg,"1,300 mg"
+1,18.0,5.0,130.0,Sedentary,25.4,1950.0,"219 - 317 grams
+",38 grams,50 grams,"54 - 76 grams
+","3.3 liters (about 14 cups)
+",75 mg,900 mcg,15 mcg,15 mg,2.4 mcg,75 mcg,16 mg,"1,300 mg"
+1,18.0,5.0,132.0,Sedentary,25.8,1974.0,"222 - 321 grams
+",38 grams,51 grams,"55 - 77 grams
+","3.3 liters (about 14 cups)
+",75 mg,900 mcg,15 mcg,15 mg,2.4 mcg,75 mcg,16 mg,"1,300 mg"
+1,18.0,5.0,135.0,Sedentary,26.4,2010.0,"226 - 327 grams
+",38 grams,52 grams,"56 - 78 grams
+","3.3 liters (about 14 cups)
+",75 mg,900 mcg,15 mcg,15 mg,2.4 mcg,75 mcg,16 mg,"1,300 mg"
+1,18.0,5.0,137.0,Sedentary,26.8,2035.0,"229 - 331 grams
+",38 grams,53 grams,"57 - 79 grams
+","3.3 liters (about 14 cups)
+",75 mg,900 mcg,15 mcg,15 mg,2.4 mcg,75 mcg,16 mg,"1,300 mg"
+1,18.0,5.0,139.0,Sedentary,27.1,2059.0,"232 - 335 grams
+",38 grams,54 grams,"57 - 80 grams
+","3.3 liters (about 14 cups)
+",75 mg,900 mcg,15 mcg,15 mg,2.4 mcg,75 mcg,16 mg,"1,300 mg"
+1,18.0,5.0,141.0,Sedentary,27.5,2083.0,"234 - 338 grams
+",38 grams,54 grams,"58 - 81 grams
+","3.3 liters (about 14 cups)
+",75 mg,900 mcg,15 mcg,15 mg,2.4 mcg,75 mcg,16 mg,"1,300 mg"
+1,18.0,6.0,88.0,Sedentary,11.9,1716.0,"193 - 279 grams
+",38 grams,34 grams,"48 - 67 grams
+","3.3 liters (about 14 cups)
+",75 mg,900 mcg,15 mcg,15 mg,2.4 mcg,75 mcg,16 mg,"1,300 mg"
+1,18.0,6.0,90.0,Sedentary,12.2,1741.0,"196 - 283 grams
+",38 grams,35 grams,"48 - 68 grams
+","3.3 liters (about 14 cups)
+",75 mg,900 mcg,15 mcg,15 mg,2.4 mcg,75 mcg,16 mg,"1,300 mg"
+1,18.0,6.0,93.0,Sedentary,12.6,1777.0,"200 - 289 grams
+",38 grams,36 grams,"49 - 69 grams
+","3.3 liters (about 14 cups)
+",75 mg,900 mcg,15 mcg,15 mg,2.4 mcg,75 mcg,16 mg,"1,300 mg"
+1,18.0,6.0,95.0,Sedentary,12.9,1801.0,"203 - 293 grams
+",38 grams,37 grams,"50 - 70 grams
+","3.3 liters (about 14 cups)
+",75 mg,900 mcg,15 mcg,15 mg,2.4 mcg,75 mcg,16 mg,"1,300 mg"
+1,18.0,6.0,97.0,Sedentary,13.2,1825.0,"205 - 297 grams
+",38 grams,37 grams,"51 - 71 grams
+","3.3 liters (about 14 cups)
+",75 mg,900 mcg,15 mcg,15 mg,2.4 mcg,75 mcg,16 mg,"1,300 mg"
+1,18.0,6.0,99.0,Sedentary,13.4,1850.0,"208 - 301 grams
+",38 grams,38 grams,"51 - 72 grams
+","3.3 liters (about 14 cups)
+",75 mg,900 mcg,15 mcg,15 mg,2.4 mcg,75 mcg,16 mg,"1,300 mg"
+1,18.0,6.0,101.0,Sedentary,13.7,1874.0,"211 - 305 grams
+",38 grams,39 grams,"52 - 73 grams
+","3.3 liters (about 14 cups)
+",75 mg,900 mcg,15 mcg,15 mg,2.4 mcg,75 mcg,16 mg,"1,300 mg"
+1,18.0,6.0,104.0,Sedentary,14.1,1910.0,"215 - 310 grams
+",38 grams,40 grams,"53 - 74 grams
+","3.3 liters (about 14 cups)
+",75 mg,900 mcg,15 mcg,15 mg,2.4 mcg,75 mcg,16 mg,"1,300 mg"
+1,18.0,6.0,106.0,Sedentary,14.4,1934.0,"218 - 314 grams
+",38 grams,41 grams,"54 - 75 grams
+","3.3 liters (about 14 cups)
+",75 mg,900 mcg,15 mcg,15 mg,2.4 mcg,75 mcg,16 mg,"1,300 mg"
+1,18.0,6.0,108.0,Sedentary,14.6,1959.0,"220 - 318 grams
+",38 grams,42 grams,"54 - 76 grams
+","3.3 liters (about 14 cups)
+",75 mg,900 mcg,15 mcg,15 mg,2.4 mcg,75 mcg,16 mg,"1,300 mg"
+1,18.0,6.0,110.0,Sedentary,14.9,1983.0,"223 - 322 grams
+",38 grams,42 grams,"55 - 77 grams
+","3.3 liters (about 14 cups)
+",75 mg,900 mcg,15 mcg,15 mg,2.4 mcg,75 mcg,16 mg,"1,300 mg"
+1,18.0,6.0,112.0,Sedentary,15.2,2007.0,"226 - 326 grams
+",38 grams,43 grams,"56 - 78 grams
+","3.3 liters (about 14 cups)
+",75 mg,900 mcg,15 mcg,15 mg,2.4 mcg,75 mcg,16 mg,"1,300 mg"
+1,18.0,6.0,115.0,Sedentary,15.6,2043.0,"230 - 332 grams
+",38 grams,44 grams,"57 - 79 grams
+","3.3 liters (about 14 cups)
+",75 mg,900 mcg,15 mcg,15 mg,2.4 mcg,75 mcg,16 mg,"1,300 mg"
+1,18.0,6.0,117.0,Sedentary,15.9,2068.0,"233 - 336 grams
+",38 grams,45 grams,"57 - 80 grams
+","3.3 liters (about 14 cups)
+",75 mg,900 mcg,15 mcg,15 mg,2.4 mcg,75 mcg,16 mg,"1,300 mg"
+1,18.0,6.0,119.0,Sedentary,16.1,2092.0,"235 - 340 grams
+",38 grams,46 grams,"58 - 81 grams
+","3.3 liters (about 14 cups)
+",75 mg,900 mcg,15 mcg,15 mg,2.4 mcg,75 mcg,16 mg,"1,300 mg"
+1,18.0,6.0,121.0,Sedentary,16.4,2116.0,"238 - 344 grams
+",38 grams,47 grams,"59 - 82 grams
+","3.3 liters (about 14 cups)
+",75 mg,900 mcg,15 mcg,15 mg,2.4 mcg,75 mcg,16 mg,"1,300 mg"
+1,18.0,6.0,123.0,Sedentary,16.7,2140.0,"241 - 348 grams
+",38 grams,47 grams,"59 - 83 grams
+","3.3 liters (about 14 cups)
+",75 mg,900 mcg,15 mcg,15 mg,2.4 mcg,75 mcg,16 mg,"1,300 mg"
+1,18.0,6.0,126.0,Sedentary,17.1,2177.0,"245 - 354 grams
+",38 grams,49 grams,"60 - 85 grams
+","3.3 liters (about 14 cups)
+",75 mg,900 mcg,15 mcg,15 mg,2.4 mcg,75 mcg,16 mg,"1,300 mg"
+1,18.0,6.0,128.0,Sedentary,17.4,2201.0,"248 - 358 grams
+",38 grams,49 grams,"61 - 86 grams
+","3.3 liters (about 14 cups)
+",75 mg,900 mcg,15 mcg,15 mg,2.4 mcg,75 mcg,16 mg,"1,300 mg"
+1,18.0,6.0,130.0,Sedentary,17.6,2225.0,"250 - 362 grams
+",38 grams,50 grams,"62 - 87 grams
+","3.3 liters (about 14 cups)
+",75 mg,900 mcg,15 mcg,15 mg,2.4 mcg,75 mcg,16 mg,"1,300 mg"
+1,18.0,6.0,132.0,Sedentary,17.9,2249.0,"253 - 365 grams
+",38 grams,51 grams,"62 - 87 grams
+","3.3 liters (about 14 cups)
+",75 mg,900 mcg,15 mcg,15 mg,2.4 mcg,75 mcg,16 mg,"1,300 mg"
+1,18.0,6.0,135.0,Sedentary,18.3,2286.0,"257 - 371 grams
+",38 grams,52 grams,"64 - 89 grams
+","3.3 liters (about 14 cups)
+",75 mg,900 mcg,15 mcg,15 mg,2.4 mcg,75 mcg,16 mg,"1,300 mg"
+1,18.0,6.0,137.0,Sedentary,18.6,2310.0,"260 - 375 grams
+",38 grams,53 grams,"64 - 90 grams
+","3.3 liters (about 14 cups)
+",75 mg,900 mcg,15 mcg,15 mg,2.4 mcg,75 mcg,16 mg,"1,300 mg"
+1,18.0,6.0,139.0,Sedentary,18.9,2334.0,"263 - 379 grams
+",38 grams,54 grams,"65 - 91 grams
+","3.3 liters (about 14 cups)
+",75 mg,900 mcg,15 mcg,15 mg,2.4 mcg,75 mcg,16 mg,"1,300 mg"
+1,18.0,6.0,141.0,Sedentary,19.1,2358.0,"265 - 383 grams
+",38 grams,54 grams,"66 - 92 grams
+","3.3 liters (about 14 cups)
+",75 mg,900 mcg,15 mcg,15 mg,2.4 mcg,75 mcg,16 mg,"1,300 mg"
