@@ -18,7 +18,7 @@ sex_options= ['edit-sex-male','edit-sex-female']
 age_range = range(18, 30)
 height_ft_range = range(5, 6)
 height_in_range = range(0, 6)
-weight_kg_range = range(150, 250)
+weight_kg_range = range(60, 150)
 
 # Generate all combinations of random values
 combinations = list(itertools.product(sex_options, age_range, height_ft_range, height_in_range, weight_kg_range))
