@@ -15,14 +15,15 @@ print(f"{driver.title} Mounted successfully!")
 data = [] 
 
 sex_options= ['edit-sex-male','edit-sex-female']
-age_range = range(18, 30)
-height_ft_range = range(5, 6)
-height_in_range = range(0, 6)
-weight_kg_range = range(60, 150)
+age_range = range(18, 20)
+height_ft_range = [5, 6]
+height_in_range = [0, 6]
+weight_kg_range = range(75, 125)
 
 # Generate all combinations of random values
 combinations = list(itertools.product(sex_options, age_range, height_ft_range, height_in_range, weight_kg_range))
 print(f"Total combinations: {len(combinations)}")
+print(f"Expected to take: {len(combinations)*4/60} minutes or {len(combinations)*4/60/60} hours")
 # Loop over the combinations
 print("Extracting data...")
 for combination in combinations:
