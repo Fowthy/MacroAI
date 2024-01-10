@@ -9,16 +9,17 @@ url = "https://www.nal.usda.gov/human-nutrition-and-food-safety/dri-calculator"
 driver = webdriver.Chrome()
 driver.get(url)
 print(f"{driver.title} Mounted successfully!")
+
+
 # Variables
 data = [] 
 
-# 'edit-sex-female'
+sex_options= ['edit-sex-male','edit-sex-female']
+age_range = range(18, 30)
+height_ft_range = range(5, 6)
+height_in_range = range(0, 6)
+weight_kg_range = range(150, 250)
 
-sex_options= ['edit-sex-male']
-age_range = range(18, 19)
-height_ft_range = range(4, 7)
-weight_kg_range = range(40, 65)
-height_in_range = range(0, 1)
 # Generate all combinations of random values
 combinations = list(itertools.product(sex_options, age_range, height_ft_range, height_in_range, weight_kg_range))
 print(f"Total combinations: {len(combinations)}")
@@ -28,8 +29,8 @@ for combination in combinations:
     # Gets the values
     sex_option, age, height_ft, height_in, weight_kg = combination
     radio_button_sex = driver.find_element(By.CSS_SELECTOR, f"label[for='{sex_option}']")
+    dropdown_pregnant = driver.find_element(By.CSS_SELECTOR, "option[value=none]")
     dropdown_input_activity = driver.find_element(By.ID, "edit-activity-level")
-    dropdown_option = driver.find_element(By.CSS_SELECTOR, "option[value=Sedentary]")
     radio_button_metric = driver.find_element(By.ID, "edit-measurement-units-met")
     num_input_age = driver.find_element(By.ID, "edit-age-value")
     dropdown_input_preg = driver.find_element(By.ID, "edit-pregnancy-lactating")
@@ -53,6 +54,9 @@ for combination in combinations:
         num_input_weight_lb.send_keys(round(weight_kg*2.205, 0))
         dropdown_input_activity.click()
         dropdown_options.click()
+        if sex_option == 'edit-sex-female':
+            dropdown_input_preg.click()
+            dropdown_pregnant.click()
     except ElementClickInterceptedException as e:
         no_thanks_id = driver.find_element(By.ID, "cfi_btnNoThanks")
         no_thanks_id.click()
@@ -71,6 +75,9 @@ for combination in combinations:
         num_input_weight_lb.send_keys(round(weight_kg*2.205, 0))
         dropdown_input_activity.click()
         dropdown_options.click()
+        if sex_option == 'edit-sex-female':
+            dropdown_input_preg.click()
+            dropdown_pregnant.click()
     # Submit and wait for the DOM to load
     submit_button.click()
     driver.implicitly_wait(3)
@@ -123,6 +130,6 @@ for combination in combinations:
 columns = ["Sex", "Age", "Height", "Weight", "Activity Level", "BMI", "Daily Calories", "Carbs", "Fiber", "Protein", "Fat", "Water", "Vitamin C", "Vitamin A", "Vitamin D", "Vitamin E", "Vitamin B12", "Vitamin K", "Niacin", "Calcium"]
 df = pd.DataFrame(data=data,columns=columns)
 print("Saving data...")
-df.to_csv("recommended_nutrition.csv", index=False)
+df.to_csv("recommended_nutrition_full.csv", index=False)
 print("Data saved!")
 driver.quit()
