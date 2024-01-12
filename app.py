@@ -23,7 +23,7 @@ st.line_chart(
 )
 
 # Create the line chart
-st.line_chart(df, x="Weight", y=["Protein", "Carbs"], color=["#FFFFFF", "#0000FF"]  # Optional)
+st.line_chart(df, x="Weight", y=["Protein", "Carbs"], color=["#FFFFFF", "#0000FF"])
 
 
 # Show the dataframe
