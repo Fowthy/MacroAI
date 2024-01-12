@@ -9,6 +9,7 @@ import pandas as pd
 import numpy as np
 
 chart_data = pd.DataFrame(np.random.randn(10, 4), columns=["weight",'desired_weight',"protein", "carbs"])
+df = pd.DataFrame('recommended_nutrition_full_cleaned.csv')
 
 st.title('MacroAI')
 st.subheader("AI powered nutritionist")
@@ -21,3 +22,6 @@ st.line_chart(
    chart_data, x="desired_weight", y=["protein", "carbs"], color=["#FFFFFF", "#0000FF"]  # Optional
 )
 
+
+# Show the dataframe
+st.write(df)
