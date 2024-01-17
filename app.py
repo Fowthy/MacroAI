@@ -22,7 +22,7 @@ chart_data = df[df["Weight"].between(weight, desired_weight)].copy()
 
 # Add a new column to the chart_data DataFrame for the tooltip
 def get_foods_and_protein(protein_goal):
-    foods = df_food.sample(3)
+    foods = df_food[df_food["Protein_(g)"] > 0].sample(3)  # Ensure that the food has some protein
     food_names = foods["Shrt_Desc"].tolist()
     food_proteins = foods["Protein_(g)"].tolist()  # Protein content per 100g of each food
     food_amounts = [protein_goal * 100 / protein for protein in food_proteins]  # Amount of each food to consume
@@ -35,7 +35,6 @@ fig = px.line(chart_data, x="Weight", y="Protein")
 fig.update_traces(hovertemplate='Weight: %{x}kg<br>Protein: %{y}g<br>Foods:<br>%{customdata}', customdata=chart_data['foods'])
 st.plotly_chart(fig)
 
-
 # Prepare the data for training
 X = df[['Weight']].values  # Weight
 y = df['Protein'].values  # Protein
@@ -47,7 +46,6 @@ model.fit(X, y)
 # Now you can use the model to predict the protein intake for a given weight
 predicted_protein = model.predict([[weight]])
 st.write(f'The predicted protein intake for a weight of {weight} kg is {predicted_protein[0]} g.')
-
 
 # Show the dataframes
 st.write(df)
