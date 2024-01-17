@@ -6,8 +6,8 @@
 
 import streamlit as st
 import pandas as pd
-import numpy as np
-import altair as alt
+import plotly.express as px
+
 
 df = pd.read_csv('recommended_nutrition_full_cleaned.csv').head(50)
 df_food = pd.read_csv('fooddata.csv')
