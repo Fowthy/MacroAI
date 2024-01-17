@@ -33,6 +33,9 @@ def get_foods_and_protein(protein_goal):
 
 chart_data["foods"] = chart_data["Protein"].apply(get_foods_and_protein)
 
+# Add a new column for the legend
+chart_data["Legend"] = "Protein Intake"
+
 # Create the line chart with tooltips
 fig = px.line(chart_data, x="Weight", y="Protein", color="Legend")
 fig.update_traces(hovertemplate='Weight: %{x}kg<br>Protein: %{y}g<br>Foods:<br>%{customdata}', customdata=chart_data['foods'])
