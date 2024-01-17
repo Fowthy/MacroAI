@@ -30,8 +30,11 @@ chart_data = df[df["Weight"].between(weight, desired_weight)].copy()
 # Add a new column to the chart_data DataFrame for the tooltip
 chart_data["foods"] = chart_data["Weight"].apply(lambda x: ', '.join(df_food.sample(3)["Shrt_Desc"].tolist()))
 
+
 # Create the line chart with tooltips
-st.line_chart(chart_data[["Weight", "Protein"]])
+fig = px.line(chart_data, x="Weight", y="Protein", hover_data=["foods"])
+st.plotly_chart(fig)
+
 
 
 
