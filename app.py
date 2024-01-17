@@ -18,7 +18,7 @@ weight = st.sidebar.number_input('Enter your weight:', 40, 120, 64)
 desired_weight = st.sidebar.number_input('Enter your desired weight:', 40, 120, 75)
 
 # Create a new DataFrame for the line chart
-chart_data = df[df["Weight"].between(weight - 0.5, desired_weight + 0.5)].copy()  # Adjust the range here
+chart_data = df[df["Weight"].between(weight - 2, desired_weight + 2)].copy()  # Adjust the range here
 
 # Add a new column to the chart_data DataFrame for the tooltip
 def get_foods_and_protein(protein_goal):
@@ -31,7 +31,7 @@ def get_foods_and_protein(protein_goal):
 chart_data["foods"] = chart_data["Protein"].apply(get_foods_and_protein)
 
 # Create the line chart with tooltips
-fig = px.line(chart_data, x="Weight", y="Protein")
+fig = px.line(chart_data, x="Weight", y="Protein", labels={'Protein':'Protein Intake'}, title='Protein Intake Prediction')
 fig.update_traces(hovertemplate='Weight: %{x}kg<br>Protein: %{y}g<br>Foods:<br>%{customdata}', customdata=chart_data['foods'])
 st.plotly_chart(fig)
 
