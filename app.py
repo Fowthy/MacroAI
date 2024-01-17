@@ -10,6 +10,9 @@ df_food = pd.read_csv('fooddata.csv')
 # Convert 'Weight' from pounds to kilograms
 df["Weight"] = df["Weight"] / 2.20462
 
+# Remove duplicates
+df = df.drop_duplicates()
+
 # User inputs
 st.title('MacroAI')
 st.subheader("AI powered nutritionist")
@@ -30,8 +33,11 @@ def get_foods_and_protein(protein_goal):
 
 chart_data["foods"] = chart_data["Protein"].apply(get_foods_and_protein)
 
+# Add a new column for the legend
+chart_data["Legend"] = "Protein Intake"
+
 # Create the line chart with tooltips
-fig = px.line(chart_data, x="Weight", y="Protein", labels={'Protein':'Protein Intake'}, title='Protein Intake Prediction')
+fig = px.line(chart_data, x="Weight", y="Protein", color="Legend")
 fig.update_traces(hovertemplate='Weight: %{x}kg<br>Protein: %{y}g<br>Foods:<br>%{customdata}', customdata=chart_data['foods'])
 st.plotly_chart(fig)
 
@@ -50,3 +56,4 @@ st.write(f'The predicted protein intake for a weight of {weight} kg is {predicte
 # Show the dataframes
 st.write(df)
 st.write(df_food)
+st.write(chart_data)
