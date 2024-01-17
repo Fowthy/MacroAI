@@ -18,7 +18,7 @@ st.title('MacroAI')
 st.subheader("AI powered nutritionist")
 height = st.sidebar.number_input('Enter your height:', 120, 220, 181)
 weight = st.sidebar.number_input('Enter your weight:', 40, 120, 64)
-desired_weight = st.sidebar.number_input('Enter your desired weight:', 40, 120, 75)
+desired_weight = st.sidebar.number_input('Enter your desired weight:', 40, 120, 78)
 
 # Create a new DataFrame for the line chart
 chart_data = df[df["Weight"].between(weight - 2, desired_weight + 2)].copy()  # Adjust the range here
