@@ -10,8 +10,8 @@ df_food = pd.read_csv('fooddata.csv')
 # Convert 'Weight' from pounds to kilograms
 df["Weight"] = df["Weight"] / 2.20462
 
-# Remove duplicates
-df = df.drop_duplicates()
+# Remove duplicates where 'Weight' is the same
+df = df.loc[~df.duplicated(subset='Weight')]
 
 # User inputs
 st.title('MacroAI')
@@ -32,9 +32,6 @@ def get_foods_and_protein(protein_goal):
     return '<br>'.join([f"{name}: {amount:.2f}g, {protein:.2f}g protein/100g" for name, amount, protein in zip(food_names, food_amounts, food_proteins)])
 
 chart_data["foods"] = chart_data["Protein"].apply(get_foods_and_protein)
-
-# Add a new column for the legend
-chart_data["Legend"] = "Protein Intake"
 
 # Create the line chart with tooltips
 fig = px.line(chart_data, x="Weight", y="Protein", color="Legend")
