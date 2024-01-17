@@ -26,17 +26,17 @@ desired_weight = st.sidebar.number_input('Enter your desired weight:', 40, 120, 
 
 
 # Create a new DataFrame for the line chart
-chart_data = df[df["weight"].between(weight, desired_weight)].copy()
+chart_data = df[df["Weight"].between(weight, desired_weight)].copy()
 
 # Add a new column to the chart_data DataFrame for the tooltip
-chart_data["foods"] = chart_data["weight"].apply(lambda x: ', '.join(df_food.sample(3)["food_name"].tolist()))
+chart_data["foods"] = chart_data["Weight"].apply(lambda x: ', '.join(df_food.sample(3)["Shrt_Desc"].tolist()))
 
 # Create the line chart with tooltips
 line_chart = alt.Chart(chart_data).mark_line().encode(
-    x="weight",
-    y=alt.Y("protein", title="Protein"),
+    x="Weight",
+    y=alt.Y("Protein", title="Protein"),
     color=alt.value("#0000FF"),
-    tooltip=["weight", "protein", "foods"]
+    tooltip=["Weight", "Protein", "foods"]
 )
 
 st.altair_chart(line_chart, use_container_width=True)
