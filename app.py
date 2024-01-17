@@ -39,11 +39,12 @@ line_chart = alt.Chart(chart_data).mark_line().encode(
     tooltip=["Weight", "Protein", "foods"]
 )
 
-# st.altair_chart(line_chart, use_container_width=True)
-st.line_chart(chart_data[["Weight", "Protein"]])
+st.altair_chart(line_chart, use_container_width=True)
 
 
 # Show the dataframe
 st.write(df)
 
 st.write(df_food)
+
+st.write(chart_data)
