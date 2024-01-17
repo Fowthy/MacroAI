@@ -31,14 +31,8 @@ chart_data = df[df["Weight"].between(weight, desired_weight)].copy()
 chart_data["foods"] = chart_data["Weight"].apply(lambda x: ', '.join(df_food.sample(3)["Shrt_Desc"].tolist()))
 
 # Create the line chart with tooltips
-line_chart = alt.Chart(chart_data).mark_line().encode(
-    x="Weight",
-    y=alt.Y("Protein", title="Protein"),
-    color=alt.value("#0000FF"),
-    tooltip=["Weight", "Protein", "foods"]
-)
+st.line_chart(chart_data[["Weight", "Protein"]])
 
-st.altair_chart(line_chart, use_container_width=True)
 
 
 # Show the dataframe
