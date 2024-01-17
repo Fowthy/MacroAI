@@ -1,4 +1,3 @@
 plotly-express
-sklearn
 scikit-learn
 matplotlib
