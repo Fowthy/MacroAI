@@ -9,16 +9,15 @@ import pandas as pd
 import numpy as np
 import altair as alt
 
-chart_data = pd.DataFrame(np.random.randn(10, 4), columns=["weight",'desired_weight',"protein", "carbs"])
 df = pd.read_csv('recommended_nutrition_full_cleaned.csv').head(50)
-
 df_food = pd.read_csv('fooddata.csv')
 
+# User inputs
 st.title('MacroAI')
 st.subheader("AI powered nutritionist")
 height = st.sidebar.number_input('Enter your height:', 120, 220, 181)
-weight = st.sidebar.number_input('Enter your weight:', 40, 120, 64)
-desired_weight = st.sidebar.number_input('Enter your desired weight:', 40, 120, 75)
+weight = st.sidebar.number_input('Enter your weight:', 40, 120, 64) * 2.20462  # Convert weight to pounds
+desired_weight = st.sidebar.number_input('Enter your desired weight:', 40, 120, 75) * 2.20462  # Convert desired weight to pounds
 
 
 # Create the line chart
