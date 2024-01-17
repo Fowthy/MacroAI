@@ -9,7 +9,7 @@ import pandas as pd
 import numpy as np
 
 chart_data = pd.DataFrame(np.random.randn(10, 4), columns=["weight",'desired_weight',"protein", "carbs"])
-df = pd.read_csv('recommended_nutrition_full_cleaned.csv').head(100)
+df = pd.read_csv('recommended_nutrition_full_cleaned.csv').head(50)
 
 st.title('MacroAI')
 st.subheader("AI powered nutritionist")
