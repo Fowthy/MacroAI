@@ -1,7 +1,6 @@
 import streamlit as st
 import pandas as pd
 import plotly.express as px
-from sklearn.linear_model import LinearRegression
 from sklearn.ensemble import RandomForestRegressor
 
 # Load the data
@@ -15,8 +14,8 @@ df["Weight"] = df["Weight"] / 2.20462
 df = df.loc[~df.duplicated(subset='Weight')]
 
 # User inputs
-height = st.sidebar.number_input('Enter your height:', 120, 220, 181)
-weight = st.sidebar.number_input('Enter your weight:', 40, 120, 64)
+height = st.sidebar.number_input('Enter your height:', 120, 220, 192)
+weight = st.sidebar.number_input('Enter your weight:', 40, 120, 68)
 # desired_weight = st.sidebar.number_input('Enter your desired weight:', 40, 120, 78)
 age = st.sidebar.number_input('Enter your age:', 18, 80, 30)
 activity_level = st.sidebar.selectbox('Select your activity level:', ['Sedentary', 'Lightly active', 'Moderately active', 'Very active', 'Extra active'])
