@@ -2,6 +2,8 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 from sklearn.ensemble import RandomForestRegressor
+import plotly.graph_objects as go
+
 
 # Load the data
 df = pd.read_csv('recommended_nutrition_full_cleaned.csv')
@@ -27,6 +29,9 @@ activity_level_map = {
     'Very active': 1.725,
     'Extra active': 1.9
 }
+
+nutrients = ['Protein', 'Carbs_max (gram)', 'Fat_max (gram)', 'Vitamin C', 'Vitamin A']
+selected_nutrients = st.multiselect('Select nutrients:', nutrients, default=nutrients)
 
 st.title('MacroAI')
 st.subheader("AI powered nutritionist")
@@ -81,6 +86,16 @@ chart_data["foods"] = chart_data["Protein"].apply(get_foods_and_protein)
 chart_data["Legend"] = "Protein Intake"
 
 # Create the line chart with tooltips
-fig = px.line(chart_data, x="Weight", y="Protein", color="Legend")
-fig.update_traces(hovertemplate='Weight: %{x}kg<br>Protein: %{y}g<br>Foods:<br>%{customdata}', customdata=chart_data['foods'])
+# fig = px.line(chart_data, x="Weight", y="Protein", color="Legend")
+# fig.update_traces(hovertemplate='Weight: %{x}kg<br>Protein: %{y}g<br>Foods:<br>%{customdata}', customdata=chart_data['foods'])
+# st.plotly_chart(fig)
+
+fig = go.Figure()
+
+for nutrient in selected_nutrients:
+    fig.add_trace(go.Scatter(x=chart_data["Weight"], y=chart_data[nutrient], mode='lines', name=nutrient,
+                             hovertemplate='Weight: %{x}kg<br>'+nutrient+': %{y}g<br>Foods:<br>%{customdata}',
+                             customdata=chart_data['foods']))
+
+fig.update_layout(title='Nutrient Intake vs Weight', xaxis_title='Weight (kg)', yaxis_title='Nutrient Intake (g)')
 st.plotly_chart(fig)
