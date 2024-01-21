@@ -17,8 +17,10 @@ df = df.loc[~df.duplicated(subset='Weight')]
 # User inputs
 height = st.sidebar.number_input('Enter your height:', 120, 220, 181)
 weight = st.sidebar.number_input('Enter your weight:', 40, 120, 64)
+# desired_weight = st.sidebar.number_input('Enter your desired weight:', 40, 120, 78)
 age = st.sidebar.number_input('Enter your age:', 18, 80, 30)
 activity_level = st.sidebar.selectbox('Select your activity level:', ['Sedentary', 'Lightly active', 'Moderately active', 'Very active', 'Extra active'])
+goal = st.sidebar.radio('Select your goal:', ['Gain weight', 'Lose weight'])
 activity_level_map = {
     'Sedentary': 1.2,
     'Lightly active': 1.375,
@@ -58,10 +60,11 @@ st.write(f'Fat: {predicted_nutrition[0][2]} g')
 # Predict weight change over time
 weeks = range(1, 13)  # Weeks 1 to 12
 predicted_weights = [weight - model.predict([[weight, height, age]])[0][0] * week / 7 for week in weeks]
-desired_weight = st.sidebar.number_input('Enter your desired weight:', 40, 120, 78)
+
+healthy_weight = 21.75 * (height / 100) ** 2  # Healthy weight based on BMI
 
 # Create a new DataFrame for the line chart
-chart_data = df[df["Weight"].between(weight - 2, desired_weight + 2)].copy()  # Adjust the range here
+chart_data = df[df["Weight"].between(weight - 2, healthy_weight + 2)].copy()  # Adjust the range here
 
 # Add a new column to the chart_data DataFrame for the tooltip
 def get_foods_and_protein(protein_goal):
