@@ -18,6 +18,17 @@ st.title('MacroAI')
 st.subheader("AI powered nutritionist")
 height = st.sidebar.number_input('Enter your height:', 120, 220, 181)
 weight = st.sidebar.number_input('Enter your weight:', 40, 120, 64)
+age = st.sidebar.number_input('Enter your age:', 18, 80, 30)
+activity_level = st.sidebar.selectbox('Select your activity level:', ['Sedentary', 'Lightly active', 'Moderately active', 'Very active', 'Extra active'])
+
+activity_level_map = {
+    'Sedentary': 1.2,
+    'Lightly active': 1.375,
+    'Moderately active': 1.55,
+    'Very active': 1.725,
+    'Extra active': 1.9
+}
+
 desired_weight = st.sidebar.number_input('Enter your desired weight:', 40, 120, 78)
 
 # Create a new DataFrame for the line chart
@@ -57,3 +68,35 @@ st.write(f'The predicted protein intake for a weight of {weight} kg is {predicte
 st.write(df)
 st.write(df_food)
 st.write(chart_data)
+
+
+from sklearn.ensemble import RandomForestRegressor
+
+# Prepare the data for training
+features = ['Weight', 'Height', 'Age']
+target = ['Protein', 'Carbs', 'Fat']
+
+X = df[features]  # Features
+y = df[target]  # Target variables
+
+# Create and train the model
+model = RandomForestRegressor(n_estimators=100, random_state=42)
+model.fit(X, y)
+
+# Now you can use the model to predict the nutritional intake for a given weight, height, age, and activity level
+predicted_nutrition = model.predict([[weight, height, age, activity_level_map[activity_level]]])
+st.write(f'The predicted nutritional intake for a weight of {weight} kg, height of {height} cm, age of {age} years, and activity level "{activity_level}" is:')
+st.write(f'Protein: {predicted_nutrition[0][0]} g')
+st.write(f'Carbs: {predicted_nutrition[0][1]} g')
+st.write(f'Fat: {predicted_nutrition[0][2]} g')
+
+# Predict weight change over time
+weeks = range(1, 13)  # Weeks 1 to 12
+predicted_weights = [weight - model.predict([[weight, height, age, activity_level_map[activity_level]]])[0][0] * week / 7 for week in weeks]
+
+# Add weeks to the x-axis of the graph
+# fig.add_trace(go.Scatter(x=weeks, y=predicted_weights, mode='lines', name='Predicted Weight'))
+# fig.update_xaxes(title_text='Weeks / Weight in kg')
+# fig.update_layout(showlegend=True)
+
+# st.plotly_chart(fig)
