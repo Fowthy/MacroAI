@@ -92,7 +92,7 @@ st.write(f'Fat: {predicted_nutrition[0][2]} g')
 
 # Predict weight change over time
 weeks = range(1, 13)  # Weeks 1 to 12
-predicted_weights = [weight - model.predict([[weight, height, age, activity_level_map[activity_level]]])[0][0] * week / 7 for week in weeks]
+predicted_weights = [weight - model.predict([[weight, height, age]])[0][0] * week / 7 for week in weeks]
 
 # Add weeks to the x-axis of the graph
 # fig.add_trace(go.Scatter(x=weeks, y=predicted_weights, mode='lines', name='Predicted Weight'))
