@@ -74,7 +74,7 @@ from sklearn.ensemble import RandomForestRegressor
 
 # Prepare the data for training
 features = ['Weight', 'Height', 'Age']
-target = ['Protein', 'Carbs', 'Fat']
+target = ['Protein', 'Carbs_max (gram)', 'Fat_max (gram)']
 
 X = df[features]  # Features
 y = df[target]  # Target variables
