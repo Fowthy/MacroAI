@@ -84,7 +84,7 @@ model = RandomForestRegressor(n_estimators=100, random_state=42)
 model.fit(X, y)
 
 # Now you can use the model to predict the nutritional intake for a given weight, height, age, and activity level
-predicted_nutrition = model.predict([[weight, height, age, activity_level_map[activity_level]]])
+predicted_nutrition = model.predict([[weight, height, age]])
 st.write(f'The predicted nutritional intake for a weight of {weight} kg, height of {height} cm, age of {age} years, and activity level "{activity_level}" is:')
 st.write(f'Protein: {predicted_nutrition[0][0]} g')
 st.write(f'Carbs: {predicted_nutrition[0][1]} g')
