@@ -30,7 +30,7 @@ activity_level_map = {
     'Extra active': 1.9
 }
 
-nutrients = ['Protein', 'Carbs_max (gram)', 'Fat_max (gram)', 'Vitamin C', 'Vitamin A']
+nutrients = ['Protein', 'Carbs_max (gram)', 'Fat_max (gram)']
 selected_nutrients = st.multiselect('Select nutrients:', nutrients, default=nutrients)
 
 st.title('MacroAI')
