@@ -42,12 +42,18 @@ y = df[target]  # Target variables
 model = RandomForestRegressor(n_estimators=100, random_state=42)
 model.fit(X, y)
 
-# Now you can use the model to predict the nutritional intake for a given weight, height, age, and activity level
-predicted_nutrition = model.predict([[weight, height, age]])
+def predict_nutrition(weight, height, age):
+    # Use the trained model to predict the nutritional intake
+    predicted_nutrition = model.predict([[weight, height, age]])
+    return predicted_nutrition
+
+# Now you can use the function to predict the nutritional intake for a given weight, height, and age
+predicted_nutrition = predict_nutrition(weight, height, age)
 st.write(f'The predicted nutritional intake for a weight of {weight} kg, height of {height} cm, age of {age} years, and activity level "{activity_level}" is:')
 st.write(f'Protein: {predicted_nutrition[0][0]} g')
 st.write(f'Carbs: {predicted_nutrition[0][1]} g')
 st.write(f'Fat: {predicted_nutrition[0][2]} g')
+
 
 # Predict weight change over time
 weeks = range(1, 13)  # Weeks 1 to 12
