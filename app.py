@@ -21,7 +21,7 @@ weight = st.sidebar.number_input('Enter your weight:', 40, 120, 68)
 # desired_weight = st.sidebar.number_input('Enter your desired weight:', 40, 120, 78)
 age = st.sidebar.number_input('Enter your age:', 18, 80, 30)
 activity_level = st.sidebar.selectbox('Select your activity level:', ['Sedentary', 'Lightly active', 'Moderately active', 'Very active', 'Extra active'])
-goal = st.sidebar.radio('Select your goal:', ['Gain weight', 'Lose weight'])
+goal = st.sidebar.radio('Select your goal:', ['Gain weight'])
 activity_level_map = {
     'Sedentary': 1.2,
     'Lightly active': 1.375,
@@ -30,19 +30,15 @@ activity_level_map = {
     'Extra active': 1.9
 }
 
-nutrients = ['Protein', 'Carbs_max (gram)', 'Fat_max (gram)']
-selected_nutrients = st.multiselect('Select nutrients:', nutrients, default=nutrients)
-
 st.title('MacroAI')
 st.subheader("AI powered nutritionist")
-
 
 # Prepare the data for training
 features = ['Weight', 'Height', 'Age']
 target = ['Protein', 'Carbs_max (gram)', 'Fat_max (gram)']
 
-X = df[features]  # Features
-y = df[target]  # Target variables
+X = df[features]
+y = df[target] 
 
 # Create and train the model
 model = RandomForestRegressor(n_estimators=100, random_state=42)
@@ -55,15 +51,10 @@ def predict_nutrition(weight, height, age):
 
 # Now you can use the function to predict the nutritional intake for a given weight, height, and age
 predicted_nutrition = predict_nutrition(weight, height, age)
-st.write(f'The predicted nutritional intake for a weight of {weight} kg, height of {height} cm, age of {age} years, and activity level "{activity_level}" is:')
-st.write(f'Protein: {predicted_nutrition[0][0]} g')
-st.write(f'Carbs: {predicted_nutrition[0][1]} g')
-st.write(f'Fat: {predicted_nutrition[0][2]} g')
-
-
-# Predict weight change over time
-weeks = range(1, 13)  # Weeks 1 to 12
-predicted_weights = [weight - model.predict([[weight, height, age]])[0][0] * week / 7 for week in weeks]
+st.markdown(f'The predicted nutritional intake for a weight of **{weight} kg**, height of **{height} cm**, age of **{age} years**, and activity level "**{activity_level}**" is:')
+st.markdown(f'**Protein**: <span style="color:blue">{predicted_nutrition[0][0]} g</span>', unsafe_allow_html=True)
+st.markdown(f'**Carbs**: <span style="color:green">{predicted_nutrition[0][1]} g</span>', unsafe_allow_html=True)
+st.markdown(f'**Fat**: <span style="color:red">{predicted_nutrition[0][2]} g</span>', unsafe_allow_html=True)
 
 healthy_weight = 21.75 * (height / 100) ** 2  # Healthy weight based on BMI
 
@@ -85,12 +76,10 @@ chart_data["foods"] = chart_data["Protein"].apply(get_foods_and_protein)
 # Add a new column for the legend
 chart_data["Legend"] = "Protein Intake"
 
-# Create the line chart with tooltips
-# fig = px.line(chart_data, x="Weight", y="Protein", color="Legend")
-# fig.update_traces(hovertemplate='Weight: %{x}kg<br>Protein: %{y}g<br>Foods:<br>%{customdata}', customdata=chart_data['foods'])
-# st.plotly_chart(fig)
-
 fig = go.Figure()
+
+nutrients = ['Protein', 'Carbs_max (gram)', 'Fat_max (gram)']
+selected_nutrients = st.multiselect('Select nutrients:', nutrients, default=nutrients)
 
 for nutrient in selected_nutrients:
     fig.add_trace(go.Scatter(x=chart_data["Weight"], y=chart_data[nutrient], mode='lines', name=nutrient,
