@@ -63,6 +63,8 @@ predicted_weights = [weight - model.predict([[weight, height, age]])[0][0] * wee
 
 healthy_weight = 21.75 * (height / 100) ** 2  # Healthy weight based on BMI
 
+st.write(f'Your healthy weight is {healthy_weight:.2f} kg')
+
 # Create a new DataFrame for the line chart
 chart_data = df[df["Weight"].between(weight - 2, healthy_weight + 2)].copy()  # Adjust the range here
 
