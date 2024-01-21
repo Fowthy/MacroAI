@@ -74,16 +74,3 @@ chart_data["Legend"] = "Protein Intake"
 fig = px.line(chart_data, x="Weight", y="Protein", color="Legend")
 fig.update_traces(hovertemplate='Weight: %{x}kg<br>Protein: %{y}g<br>Foods:<br>%{customdata}', customdata=chart_data['foods'])
 st.plotly_chart(fig)
-
-# Prepare the data for training
-X = df[['Weight']].values  # Weight
-y = df['Protein'].values  # Protein
-
-# Create and train the model
-model = LinearRegression()
-model.fit(X, y)
-
-# Now you can use the model to predict the protein intake for a given weight
-predicted_protein = model.predict([[weight]])
-st.write(f'The predicted protein intake for a weight of {weight} kg is {predicted_protein[0]} g.')
-
