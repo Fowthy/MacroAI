@@ -17,7 +17,7 @@ df = df.loc[~df.duplicated(subset='Weight')]
 
 # User inputs
 height = st.sidebar.number_input('Enter your height:', 120, 220, 192)
-weight = st.sidebar.number_input('Enter your weight:', 40, 120, 68)
+weight = st.sidebar.number_input('Enter your weight:', 40, 120, 74)
 # desired_weight = st.sidebar.number_input('Enter your desired weight:', 40, 120, 78)
 age = st.sidebar.number_input('Enter your age:', 18, 80, 30)
 activity_level = st.sidebar.selectbox('Select your activity level:', ['Sedentary', 'Lightly active', 'Moderately active', 'Very active', 'Extra active'])
