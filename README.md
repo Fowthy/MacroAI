@@ -3,6 +3,8 @@ an AI model that creates the best meal plan for you based on your preferences an
 
 ![](headingimg.png)
 
+You can access the app from here: https://macroai.streamlit.app/
+
 ## Idea
 The main idea is to implement an application that uses model, which supplies the best meal plan to a user, based on his features (age, weight, height, diet, etc.). It will select the most nutritious food for the person and will create a sample diet of what the user should be eating to achieve his goal. The idea stays unique, as the person can not only put his body features, but also what he ate during the day/week. That way the model can compare the person diet with the generated meal plan and provide more tips/solutions to achieve his goal, with higher accuracy. The user can conveniently select foods from the application to validate his diet with the recommended one.
 
