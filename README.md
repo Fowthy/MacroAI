@@ -1,4 +1,4 @@
-# Healthy Eating Meal Planner
+# Healthy Eating Meal Planner DEMO
 an AI model that creates the best meal plan for you based on your preferences and dietary restrictions
 
 ![](headingimg.png)
