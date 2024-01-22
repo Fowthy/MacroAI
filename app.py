@@ -82,7 +82,7 @@ nutrients = ['Protein', 'Carbs_max (gram)', 'Fat_max (gram)']
 selected_nutrients = st.multiselect('Select nutrients:', nutrients, default=nutrients)
 
 for nutrient in selected_nutrients:
-    fig.add_trace(go.Scatter(x=chart_data["Weight"], y=chart_data[nutrient], mode='lines', name=nutrient,
+    fig.add_trace(go.Scatter(x=chart_data["Age"], y=chart_data[nutrient], mode='lines', name=nutrient,
                              hovertemplate='Weight: %{x}kg<br>'+nutrient+': %{y}g<br>Foods:<br>%{customdata}',
                              customdata=chart_data['foods']))
 
