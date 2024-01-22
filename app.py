@@ -89,9 +89,16 @@ for nutrient in selected_nutrients:
 fig.update_layout(title='Nutrient Intake vs Weight', xaxis_title='Weight (kg)', yaxis_title='Nutrient Intake (g)')
 st.plotly_chart(fig)
 
-chart_data = df[df["Age"].between(age - 10, age + 10)].copy()  # Adjust the range here
+chart_data = df[df["Age"].between(age - 10, age + 10)].copy() 
+chart_data["foods"] = chart_data["Protein"].apply(get_foods_and_protein)
 
-# ...
+# Add a new column for the legend
+chart_data["Legend"] = "Protein Intake"
+
+fig = go.Figure()
+
+nutrients = ['Protein', 'Carbs_max (gram)', 'Fat_max (gram)']
+selected_nutrients = st.multiselect('Select nutrients:', nutrients, default=nutrients)
 
 for nutrient in selected_nutrients:
     fig.add_trace(go.Scatter(x=chart_data["Age"], y=chart_data[nutrient], mode='lines', name=nutrient,
