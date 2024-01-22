@@ -51,7 +51,7 @@ def predict_nutrition(weight, height, age):
 
 # Now you can use the function to predict the nutritional intake for a given weight, height, and age
 predicted_nutrition = predict_nutrition(weight, height, age)
-st.markdown(f'The predicted nutritional intake for a weight of **{weight} kg**, height of **{height} cm**, age of **{age} years**, and activity level "**{activity_level}**" is:')
+st.markdown(f'The predicted daily nutritional intake for a weight of **{weight} kg**, height of **{height} cm**, age of **{age} years**, and activity level "**{activity_level}**" is:')
 st.markdown(f'**Protein**: <span style="color:blue">{predicted_nutrition[0][0]} g</span>', unsafe_allow_html=True)
 st.markdown(f'**Carbs**: <span style="color:green">{predicted_nutrition[0][1]} g</span>', unsafe_allow_html=True)
 st.markdown(f'**Fat**: <span style="color:red">{predicted_nutrition[0][2]} g</span>', unsafe_allow_html=True)
