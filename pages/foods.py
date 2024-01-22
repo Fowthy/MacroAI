@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 
 # Load the data
-df_food = pd.read_csv('./fooddata.csv')
+df_food = pd.read_csv('./fooddata.csv').head(100)
 
 # User inputs
 search_term = st.text_input('Search for a food item:')
