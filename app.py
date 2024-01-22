@@ -89,21 +89,18 @@ for nutrient in selected_nutrients:
 fig.update_layout(title='Nutrient Intake vs Weight', xaxis_title='Weight (kg)', yaxis_title='Nutrient Intake (g)')
 st.plotly_chart(fig)
 
-chart_data = df[df["Age"].between(age - 10, age + 10)].copy() 
-chart_data["foods"] = chart_data["Protein"].apply(get_foods_and_protein)
+chart_data2 = df[df["Age"].between(age - 10, age + 10)].copy() 
+chart_data2["foods"] = chart_data["Protein"].apply(get_foods_and_protein)
 
 # Add a new column for the legend
-chart_data["Legend"] = "Protein Intake"
+chart_data2["Legend"] = "Protein Intake"
 
-fig = go.Figure()
-
-nutrients = ['Protein', 'Carbs_max (gram)', 'Fat_max (gram)']
-selected_nutrients = st.multiselect('Select nutrients:', nutrients, default=nutrients)
+fig2 = go.Figure()
 
 for nutrient in selected_nutrients:
-    fig.add_trace(go.Scatter(x=chart_data["Age"], y=chart_data[nutrient], mode='lines', name=nutrient,
+    fig2.add_trace(go.Scatter(x=chart_data["Age"], y=chart_data[nutrient], mode='lines', name=nutrient,
                              hovertemplate='Age: %{x}<br>'+nutrient+': %{y}g<br>Foods:<br>%{customdata}',
                              customdata=chart_data['foods']))
 
-fig.update_layout(title='Nutrient Intake vs Age', xaxis_title='Age', yaxis_title='Nutrient Intake (g)')
-st.plotly_chart(fig)
+fig2.update_layout(title='Nutrient Intake vs Age', xaxis_title='Age', yaxis_title='Nutrient Intake (g)')
+st.plotly_chart(fig2)
