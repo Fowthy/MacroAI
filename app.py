@@ -13,7 +13,7 @@ df_food = pd.read_csv('fooddata.csv')
 df["Weight"] = df["Weight"] / 2.20462
 
 # Remove duplicates where 'Weight' is the same
-df = df.loc[~df.duplicated(subset='Age')]
+df = df.loc[~df.duplicated(subset='Weight')]
 
 # User inputs
 height = st.sidebar.number_input('Enter your height:', 120, 220, 192)
@@ -88,6 +88,16 @@ for nutrient in selected_nutrients:
 
 fig.update_layout(title='Nutrient Intake vs Weight', xaxis_title='Weight (kg)', yaxis_title='Nutrient Intake (g)')
 st.plotly_chart(fig)
+
+
+df = pd.read_csv('recommended_nutrition_full_cleaned.csv')
+df_food = pd.read_csv('fooddata.csv')
+
+# Convert 'Weight' from pounds to kilograms
+df["Weight"] = df["Weight"] / 2.20462
+
+# Remove duplicates where 'Weight' is the same
+df = df.loc[~df.duplicated(subset='Age')]
 
 chart_data2 = df[df["Age"].between(age - 10, age + 10)].copy() 
 chart_data2["foods"] = chart_data["Protein"].apply(get_foods_and_protein)
