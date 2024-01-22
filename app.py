@@ -13,7 +13,7 @@ df_food = pd.read_csv('fooddata.csv')
 df["Weight"] = df["Weight"] / 2.20462
 
 # Remove duplicates where 'Weight' is the same
-# df = df.loc[~df.duplicated(subset='Weight')]
+df = df.loc[~df.duplicated(subset='Age')]
 
 # User inputs
 height = st.sidebar.number_input('Enter your height:', 120, 220, 192)
