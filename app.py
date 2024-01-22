@@ -98,9 +98,9 @@ chart_data2["Legend"] = "Protein Intake"
 fig2 = go.Figure()
 
 for nutrient in selected_nutrients:
-    fig2.add_trace(go.Scatter(x=chart_data["Age"], y=chart_data[nutrient], mode='lines', name=nutrient,
+    fig2.add_trace(go.Scatter(x=chart_data2["Age"], y=chart_data2[nutrient], mode='lines', name=nutrient,
                              hovertemplate='Age: %{x}<br>'+nutrient+': %{y}g<br>Foods:<br>%{customdata}',
-                             customdata=chart_data['foods']))
+                             customdata=chart_data2['foods']))
 
 fig2.update_layout(title='Nutrient Intake vs Age', xaxis_title='Age', yaxis_title='Nutrient Intake (g)')
 st.plotly_chart(fig2)
