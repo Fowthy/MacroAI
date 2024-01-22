@@ -88,3 +88,15 @@ for nutrient in selected_nutrients:
 
 fig.update_layout(title='Nutrient Intake vs Weight', xaxis_title='Weight (kg)', yaxis_title='Nutrient Intake (g)')
 st.plotly_chart(fig)
+
+chart_data = df[df["Age"].between(age - 10, age + 10)].copy()  # Adjust the range here
+
+# ...
+
+for nutrient in selected_nutrients:
+    fig.add_trace(go.Scatter(x=chart_data["Age"], y=chart_data[nutrient], mode='lines', name=nutrient,
+                             hovertemplate='Age: %{x}<br>'+nutrient+': %{y}g<br>Foods:<br>%{customdata}',
+                             customdata=chart_data['foods']))
+
+fig.update_layout(title='Nutrient Intake vs Age', xaxis_title='Age', yaxis_title='Nutrient Intake (g)')
+st.plotly_chart(fig)
